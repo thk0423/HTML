@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>2023/09/26</title>
+</head>
+<body>
+  <form id="frmLogin" class="hidden">
+    <input required maxlength="19" type="text" placeholder="이름을 적어 주세요."/>
+    <input type="submit" value="Log In" />
+  </form>
+  
+  <h1 id="greeting" class="hidden"></h1>
+  <h2 id="clock"></h2>
+
+  <!--
+    toDo리스트를 만들자.
+  -->
+  <form id="frmTodo">
+    <input type="text" placeholder="할 일을 적고 엔터키를 누르세요" required />
+  </form>
+
+  <ul id="lstTodo">
+    <!-- 자바스크립트에서 제어 -->
+      <!-- <li>밥먹기</li>
+      <li>물마시기</li>  -->
+      <!-- <li>
+        <span>잠자기</span>
+      </li> -->
+  </ul>
+
+  <div id="weather">
+    <span>날씨</span>
+    <span>지역</span>
+  </div>
+
+
+  <div id="quote">
+    <span>명언</span>
+    <span>작가</span>
+  </div>
+  <script src="js/greeting.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+  
+
+
+</body>
+</html>
